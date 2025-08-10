@@ -11,9 +11,22 @@ function App() {
    
   return (
     <> 
-      {/* <Overlay /> */}
-      {/* <LoginForm /> */}
+
+    {/* Overlay component starts */}   
+      <Overlay />
+    {/* Overlay component ends */}
+
+    {/* Header component starts */}
       <Header />
+    {/* Header component ends */}
+    
+    {/* LoginForm starts */}
+      <div className="body-wrapper flex w-full h-full justify-center items-center">
+        <LoginForm />
+      </div>
+    {/* LoginForm ends */}
+
+    {/* home content with nav date widget and appointment list starts */}
       <div className="body-wrapper flex w-full h-full">
         <SideNav />
         <div className="main-content w-full h-full">
@@ -21,7 +34,13 @@ function App() {
           <AppointmentHomeList /> 
         </div>
       </div>
-      {/* <RegisterForm /> */}
+    {/* home content with nav date widget and appointment list ends */}
+
+    {/* RegisterForm starts */}
+      <div className="body-wrapper flex w-full h-full justify-center items-center">
+        <RegisterForm />
+      </div>
+    {/* RegisterForm ends */}
     </>
   )
 }
