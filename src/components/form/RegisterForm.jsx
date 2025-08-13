@@ -10,7 +10,7 @@ function RegisterForm() {
 
     return (
     <>
-    <div className="loginForm z-2 w-full max-w-187 flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg">
+    <div className="registerForm mx-[auto] my-[0] z-2 w-full max-w-187 flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg">
         <Input label="Username" type="text" index={0}/>
         <Input label="Email" type="email" index={1}/>
         <Input label="Password" type="password" index={2}/>    
