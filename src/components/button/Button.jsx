@@ -4,7 +4,7 @@ function Button({ text, action, color, tailwindClasses }) {
 
         <button
             role="button"
-            className={`bg-${color} ${tailwindClasses}`}
+            className={`bg-${color} ${tailwindClasses} cursor-pointer`}
             onClick={action}
         >
             {text}

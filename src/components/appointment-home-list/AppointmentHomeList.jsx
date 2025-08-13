@@ -3,7 +3,7 @@ import Input from '../input/input'
 function AppointmentHomeList() {
 
     return (
-        <div className="appointment-list-container">
+        <div className="appointment-list-container w-full">
             <ul className='flex flex-col p-[10px] gap-[10px] h-90 overflow-y-scroll'>
 
                 <li className='flex justify-center'>
