@@ -1,4 +1,4 @@
-import Input from '../input/input'
+// import Input from '../input/input'
 
 function AppointmentHomeList() {
 
@@ -21,7 +21,7 @@ function AppointmentHomeList() {
                             </div>
                         </div>
                         <div className="completion-status">
-                            <Input label="Completion" type="checkbox" index={0}/>
+                            {/* <Input label="Completion" type="checkbox" inputID="completionInput"/> */}
                         </div>
                     </div>
                 </li>
@@ -41,7 +41,7 @@ function AppointmentHomeList() {
                             </div>
                         </div>
                         <div className="completion-status">
-                            <Input label="Completion" type="checkbox" index={1}/>
+                            {/* <Input label="Completion" type="checkbox" inputID="completionInput"/> */}
                         </div>
                     </div>
                 </li>
@@ -61,7 +61,7 @@ function AppointmentHomeList() {
                             </div>
                         </div>
                         <div className="completion-status">
-                            <Input label="Completion" type="checkbox" index={2}/>
+                            {/* <Input label="Completion" type="checkbox" inputID="completionInput"/> */}
                         </div>
                     </div>
                 </li>
@@ -81,7 +81,7 @@ function AppointmentHomeList() {
                             </div>
                         </div>
                         <div className="completion-status">
-                            <Input label="Completion" type="checkbox" index={2}/>
+                            {/* <Input label="Completion" type="checkbox" inputID="completionInput"/> */}
                         </div>
                     </div>
                 </li>

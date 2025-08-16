@@ -1,4 +1,4 @@
-function Button({ text, action, color, tailwindClasses }) {
+function Button({ text, action, color, tailwindClasses, type }) {
   
     return (
 
@@ -6,6 +6,7 @@ function Button({ text, action, color, tailwindClasses }) {
             role="button"
             className={`bg-${color} ${tailwindClasses} cursor-pointer`}
             onClick={action}
+            type={type}
         >
             {text}
         </button>       

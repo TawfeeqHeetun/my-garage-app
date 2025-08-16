@@ -19,4 +19,16 @@ html, body, #root {
   display: flex;
   flex-direction: column; 
 }
+
+.errorClass {
+  transition: ease-in-out 0.5s;
+}
+
+input.errorClass {
+  border-color: #ff0000;
+}
+
+span.errorClass {
+  color: #ff0000;
+}
  
